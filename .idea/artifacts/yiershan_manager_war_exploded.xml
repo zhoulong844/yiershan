@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="yiershan-manager:war exploded">
+    <output-path>$PROJECT_DIR$/yiershan-manager/target/yiershan-manmager</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="yiershan-manager" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/yiershan-manager/target/yiershan-manmager/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="yiershan-manager/web/Web" />
+    </root>
+  </artifact>
+</component>

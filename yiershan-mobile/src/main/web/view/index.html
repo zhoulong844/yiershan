@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>欢迎登录后台管理系统</title>
+    <script language="JavaScript" src="./jsimgcss/js/jquery.js"></script>
+    <common></common>
+    <script>
+        window.onload= function(){
+            loadBase();
+            loadHead();
+            loadMenu();
+            loadFoot();
+        };
+    </script>
+</head>
+
+<body >
+<!-- 公用头部 开始 -->
+<header></header>
+<!-- 公用头部 结束 -->
+
+<div class="box">
+    <!-- 公用左边菜单 开始 -->
+    <lefter></lefter>
+    <!-- 公用左边菜单 结束 -->
+    <!-- 公用主体开始 -->
+    <main class="main_box">
+        <div class="place">
+            <span>位置：</span>
+            <ul class="placeul">
+                <li><a href="javascript:void(0)" id="add">首页</a></li>
+            </ul>
+        </div>
+        <div class="mainindex">
+            <div class="welinfo">
+                <span><img src="./jsimgcss/images/sun.png" alt="天气" /></span>
+                <b><font id="currentUserName2" ></font>您好，欢迎使用衣二衫后台系统</b>
+
+            </div>
+            <div class="box"><img src="./jsimgcss/images/Welcome.jpg" alt="天气" />
+
+            </div>
+            <div class="uimakerinfo"><b>华盛婚礼会馆</b></div>
+        </div>
+
+    </main>
+    <!-- 公用主体结束 -->
+
+</div>
+
+<!-- 公用底部 开始 -->
+<footer></footer>
+<script src="./common/common.js" type="text/javascript"></script>
+<!-- 公用底部 结束 -->
+</body>
+</html>

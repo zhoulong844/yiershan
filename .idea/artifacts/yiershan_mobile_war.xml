@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="yiershan-mobile:war">
+    <output-path>$PROJECT_DIR$/yiershan-mobile/target</output-path>
+    <root id="archive" name="yiershan-mobile-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="yiershan-mobile:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="yiershan-manager:war">
+    <output-path>$PROJECT_DIR$/yiershan-manager/target</output-path>
+    <root id="archive" name="yiershan-manmager.war">
+      <element id="artifact" artifact-name="yiershan-manager:war exploded" />
+    </root>
+  </artifact>
+</component>
